@@ -57,7 +57,7 @@ fun VideoCard (
             VideoThumbnail(url = videoItem.thumbnail)
         }
         if (isPlayButtonVisible){
-            Icon(painter = painterResource(id = if (isPlaying) R.drawable.exo_ic_pause_circle_filled else R.drawable.exo_ic_play_circle_filled),
+            Icon(painter = painterResource(id = if (isPlaying) R.drawable.ic_baseline_pause_24 else R.drawable.ic_baseline_play_arrow_24),
                 contentDescription = "Play or Pause",
                 modifier = Modifier
                     .align(Alignment.Center)
